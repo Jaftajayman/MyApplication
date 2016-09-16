@@ -1,78 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
-    android:padding="18dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@android:color/background_dark"
-    >
+    android:orientation="vertical"
+    android:padding="10dp">
+
     <TextView
-        android:text="Jay"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:textColor="#FFF"
         android:id="@+id/textView"
-        android:layout_alignTop="@+id/textView2"
-        android:layout_alignRight="@+id/button2"
-        android:layout_alignEnd="@+id/button2" />
-
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:textColor="#fff"
-        android:id="@+id/textView2"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:text="Happy Birth-day!!! You are old from today"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="40dp"
+        android:textStyle="bold"
+
+        />
 
     <ImageView
 
-        android:src="@drawable/Koala"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/download"
+
+        />
+
+
+    <TextView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleType="centerCrop"
-
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="200dp"
-        android:id="@+id/imageView"
-        android:layout_gravity="bottom" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="OK"
-        android:id="@+id/button"
-        android:background="@android:color/white"
-        android:layout_marginTop="107dp"
-        android:layout_below="@+id/textView2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cancel"
-        android:id="@+id/button2"
-        android:background="@android:color/white"
-        android:layout_alignTop="@+id/button"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="right"
+        android:fontFamily="@android:sans-serif-light"
+        android:text="From JayMaster"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:textStyle="italic" />
 
 
-</RelativeLayout>
+</LinearLayout>
 
 
 
